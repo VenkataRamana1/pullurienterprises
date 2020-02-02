@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pulluri Enterprises</string>
+    <string name="title_activity_category_grid">CategoryGrid</string>
+    <string name="title_activity_descripion">descripion</string>
+</resources>
