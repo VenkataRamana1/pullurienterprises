@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs"
+    android:background="@color/colorWhite">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:paddingTop="150dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:padding="20dp"
+            android:background="@drawable/desc_background">
+
+
+            <TextView
+                android:id="@+id/contactService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Branch Office"
+                android:textColor="#FFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+
+
+        </RelativeLayout>
+        <!--First Section-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#fece2f"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/contact_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginBottom="84dp"
+                android:src="@drawable/ic_contacts" />
+
+
+            <TextView
+                android:id="@+id/add1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/contact_image"
+                android:includeFontPadding="false"
+                android:text="Pulluri Entrprises"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/add2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add1"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/contact_image"
+                android:includeFontPadding="false"
+                android:text="Chaitanyapuri, DilsukNagar"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/add3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add2"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@+id/contact_image"
+                android:includeFontPadding="false"
+                android:text="Hyderabad-500060"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/add4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add3"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@+id/contact_image"
+                android:includeFontPadding="false"
+                android:text="Phone - 7013650063, 9666673402"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/add11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add4"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@+id/contact_image"
+                android:includeFontPadding="false"
+                android:text="pullurienterprises.com@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:padding="20dp"
+            android:background="@drawable/desc_background"
+
+            android:layout_marginTop="20sp">
+
+
+            <TextView
+                android:id="@+id/contactService1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Corporate Office"
+                android:textColor="#FFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#fece2f"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/contact_image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginBottom="84dp"
+                android:src="@drawable/ic_contacts" />
+
+
+            <TextView
+                android:id="@+id/add6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@+id/contact_image1"
+                android:includeFontPadding="false"
+                android:text="Pulluri Entrprises"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/add7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add6"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@+id/contact_image1"
+                android:includeFontPadding="false"
+                android:text="balaji Nagar, Kagaz Nagar"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/add8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add7"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-1dp"
+                android:layout_toRightOf="@+id/contact_image1"
+                android:includeFontPadding="false"
+                android:text="Asifabad - 504296"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/add9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add8"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@+id/contact_image1"
+                android:includeFontPadding="false"
+                android:text="Phone - 7013650063, 9666673402"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/add10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@+id/contact_image1"
+                android:includeFontPadding="false"
+                android:text="Email - pullurisai6666@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>
